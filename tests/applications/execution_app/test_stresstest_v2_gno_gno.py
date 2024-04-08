@@ -36,6 +36,7 @@ stresstest_outcome = {
                     "label": "Withdraw (proportional)",
                     "test": True,
                     "stresstest": True,
+                    "stresstest_error": "None",
                     "description": "Exit pool on Balancer with proportional exit. (Not for recovery mode)",
                     "parameters": [
                         {
@@ -56,6 +57,7 @@ stresstest_outcome = {
                     "label": "Withdraw (proportional) (Recovery mode)",
                     "test": True,
                     "stresstest": False,
+                    "stresstest_error": "error: Skip recovery",
                     "description": "Exit pool on Balancer with proportional exit. (Recovery Mode)",
                     "parameters": [
                         {
